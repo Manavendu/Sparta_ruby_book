@@ -1,0 +1,9 @@
+
+    <p>Posts Root</p>
+    <% @posts.each do |post|%>
+      <div>
+        <a href="/<%= post[:id]%>"><%= post[:title]%>
+       <a href="/<%= post[:id]%>"><%= post[:body]%>
+      </div>
+    <% end %>
+ 

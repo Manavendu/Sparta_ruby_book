@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><%=@post[:title]%></title>
+  </head>
+  <body>
+   
+    <%# <h1> Hello <%=params[:id]%>
+<!-- <h2> Hello <%= @name %> </h2> -->
+      <%# <p><%=@post[:title]></p>  %>
+    <p><%=@post[:body]%></p>
+    <a href="/<%= @post[:id]%>/edit"> Edit the content</a>
+  </body>
+</html>
+ 
